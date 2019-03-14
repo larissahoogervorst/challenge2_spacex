@@ -1,0 +1,76 @@
+.clock {
+	font-size: 3em;
+	color: white;
+	text-align: center;
+	margin-top: 230px;
+	font-family: 'Righteous';
+}
+
+.day {
+	background: url('../images/day.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.night {
+	background: url('../images/space.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body{
+	color: white;
+}
+
+#mainHeading {
+	position: absolute; 
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 140px;
+}
+
+footer {
+	margin-top: 160px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+@media only screen and (min-width: 650px){
+	.clock {
+	font-size: 3.5em;
+	color: white;
+	text-align: center;
+	margin-top: 180px;
+	font-family: 'Righteous';
+	}
+
+	.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 180px;
+	}
+	
+}
+
+@media only screen and (min-width: 950px){
+	.clock {
+	font-size: 4em;
+	color: white;
+	text-align: center;
+	margin-top: 200px;
+	font-family: 'Righteous';
+	}
+
+	.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 220px;
+	}
+
+}
